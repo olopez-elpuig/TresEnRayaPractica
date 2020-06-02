@@ -18,10 +18,10 @@ public class Main {
         for (int turno = 1; turno <= 9; turno++) {
             if(turno%2==0){
                 jugador2.ponerFicha(tablero);
-                ganador = tablero.verificarGanador(jugador1);
+                ganador = tablero.comprobarGanador(jugador1);
             }else{
                 jugador1.ponerFicha(tablero);
-                ganador = tablero.verificarGanador(jugador2);
+                ganador = tablero.comprobarGanador(jugador2);
             }
             tablero.imprimir();
             if(ganador){

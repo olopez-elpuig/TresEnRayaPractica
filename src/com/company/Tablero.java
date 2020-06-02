@@ -38,7 +38,7 @@ public class Tablero {
         }
     }
 
-    public boolean verificarGanador(Jugador jugador){
+    public boolean comprobarGanador(Jugador jugador){
 
         boolean valor = false;
         String ficha1 = " _"+jugador.getFicha().getFicha()+"_ ";
