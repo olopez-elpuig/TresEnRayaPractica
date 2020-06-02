@@ -43,6 +43,8 @@ public class Tablero {
         boolean valor = false;
         String ficha1 = " _"+jugador.getFicha().getFicha()+"_ ";
         String ficha3 = ficha1+ficha1+ficha1;
+
+        //Posicion de las fichas en el tablero
         String fila = tablero[0][0]+tablero[0][1]+tablero[0][2];
 
         if( ficha3.equals(fila)){
