@@ -15,8 +15,8 @@ public class Main {
         Tablero tablero = new Tablero();
         tablero.imprimir();
         boolean ganador = false;
-        for (int veces = 1; veces <= 9; veces++) {
-            if(veces%2==0){
+        for (int turno = 1; turno <= 9; turno++) {
+            if(turno%2==0){
                 jugador2.ponerFicha(tablero);
                 ganador = tablero.verificarGanador(jugador1);
             }else{
