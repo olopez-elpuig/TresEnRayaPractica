@@ -39,12 +39,12 @@ public class Tablero {
     }
 
     public boolean verificarGanador(Jugador jugador){
+
         boolean valor = false;
         String ficha1 = " _"+jugador.getFicha().getFicha()+"_ ";
         String ficha3 = ficha1+ficha1+ficha1;
         String fila = tablero[0][0]+tablero[0][1]+tablero[0][2];
-        //System.out.println("-->"+ficha3);
-        //System.out.println("-->"+ficha1);
+
         if( ficha3.equals(fila)){
             valor  = true;
         }
