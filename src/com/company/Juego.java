@@ -1,6 +1,6 @@
 package com.company;
 
-public class Main {
+public class Juego {
 
     public static void main(String[] args) {
         System.out.println("La posicion de las fichas irá desde 0 hasta 2, elige bien.");
