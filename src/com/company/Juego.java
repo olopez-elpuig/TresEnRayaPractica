@@ -15,6 +15,7 @@ public class Juego {
         Tablero tablero = new Tablero();
         tablero.imprimir();
         boolean ganador = false;
+//      Este bucle nos ayudará a ir cambiando de turno e añadir nuestras fichas mediante el transcurso de la partida siendo esta un maximo de 9 turnos dado que nuestro tablero es un 3x3.
         for (int turno = 1; turno <= 9; turno++) {
             if(turno%2==0){
                 jugador2.ponerFicha(tablero);
